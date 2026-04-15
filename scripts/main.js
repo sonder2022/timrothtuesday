@@ -17,22 +17,22 @@ $(function() {
          template: [
              "Big @color @animal",
              "Silly @animal with @color fur"
-    //     ],
-    //     animal: [
-    //         "dog",
-    //         "cat",
-    //         "rabbit"
-    //     ],
-    //     color: [
-    //         "red",
-    //         "blue",
-    //         "green",
-    //         "yellow"
-    //     ]
-    // });
+         ],
+         animal: [
+             "dog",
+             "cat",
+             "rabbit"
+         ],
+         color: [
+             "red",
+             "blue",
+             "green",
+             "yellow"
+         ]
+     });
 
-    // Populate using a JSON file
-    // WTF.init( 'sample.json' );
+     Populate using a JSON file
+     WTF.init( 'sample.json' );
 
 
 });
